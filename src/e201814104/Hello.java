@@ -7,7 +7,11 @@ public class Hello {
 		this.msg = msg;
 	}
 
-	public void say() {
+	public void say(){
+		say(this.msg);
+	}
+
+	public void say(String msg){
 		System.out.println(msg);
 	}
 }
